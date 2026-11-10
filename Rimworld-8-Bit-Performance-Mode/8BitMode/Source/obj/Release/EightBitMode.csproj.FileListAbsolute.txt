@@ -1,0 +1,7 @@
+C:\Users\caide\Downloads\Rimworld-8-Bit-Performance-Mode-rewrite\Rimworld-8-Bit-Performance-Mode\8BitMode\Source\obj\Release\EightBitMode.csproj.AssemblyReference.cache
+C:\Users\caide\Downloads\Rimworld-8-Bit-Performance-Mode-rewrite\Rimworld-8-Bit-Performance-Mode\8BitMode\Source\obj\Release\EightBitMode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caide\Downloads\Rimworld-8-Bit-Performance-Mode-rewrite\Rimworld-8-Bit-Performance-Mode\8BitMode\Source\obj\Release\EightBitMode.AssemblyInfoInputs.cache
+C:\Users\caide\Downloads\Rimworld-8-Bit-Performance-Mode-rewrite\Rimworld-8-Bit-Performance-Mode\8BitMode\Source\obj\Release\EightBitMode.AssemblyInfo.cs
+C:\Users\caide\Downloads\Rimworld-8-Bit-Performance-Mode-rewrite\Rimworld-8-Bit-Performance-Mode\8BitMode\Source\obj\Release\EightBitMode.csproj.CoreCompileInputs.cache
+C:\Users\caide\Downloads\Rimworld-8-Bit-Performance-Mode-rewrite\Rimworld-8-Bit-Performance-Mode\8BitMode\1.6\Assemblies\EightBitMode.dll
+C:\Users\caide\Downloads\Rimworld-8-Bit-Performance-Mode-rewrite\Rimworld-8-Bit-Performance-Mode\8BitMode\Source\obj\Release\EightBitMode.dll

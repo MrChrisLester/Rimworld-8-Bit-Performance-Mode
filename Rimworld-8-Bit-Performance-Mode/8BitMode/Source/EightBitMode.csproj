@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>EightBitMode</AssemblyName>
+    <RootNamespace>EightBitMode</RootNamespace>
+    <OutputPath>..\1.6\Assemblies\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference-only RimWorld/Unity assemblies. Nothing from the game gets copied into the mod. -->
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.*-*" />
+    <!-- Harmony 2 for compiling only. At runtime the Harmony mod provides it. -->
+    <PackageReference Include="Lib.Harmony" Version="2.*" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+</Project>
