@@ -1,4 +1,17 @@
-# Rimworld-8-Bit-Performance-Mode
-Turns RimWorld into a retro, ultra‑low‑graphics mode designed for players on low‑end or budget devices. This mod aggressively downscales textures and simplifies visuals to improve performance while giving the game a chunky 8‑bit aesthetic.
+# RimWorld 8-Bit Performance Mode
 
-I originally started this project because my gaming computer was an old junker I got for free from my highschool; a dell latitude with 64gb of storage and 4gb ram. I liked to play RimWorld, and it ran, but very poorly, and forget any sort of modding. So I began work on this. At the time, I never really accomplished anything grand; errors out the wazoo. But I've recently revisited it as part of my portfolio.
+RimWorld 8-Bit Performance Mode is a graphics optimization mod designed to make RimWorld more accessible on low-end and budget hardware. It aggressively downscales textures and simplifies visual assets to reduce graphical overhead while giving the game a distinctive, chunky 8-bit aesthetic.
+
+## About the Project
+
+This project originally started out of necessity.
+
+My first gaming computer was an old Dell Latitude that I got for free from my high school. It had just 64 GB of storage and 4 GB of RAM. I enjoyed playing RimWorld, but performance was far from ideal, and running additional mods was practically out of the question.
+
+So, I decided to try building a solution myself.
+
+The original project was ambitious, but I never got particularly far. Development was plagued by errors, compatibility issues, and plenty of trial and error. Eventually, I set it aside.
+
+I've recently returned to the project as part of my programming portfolio, with a better understanding of the game's architecture, mod development, and the challenges involved in optimizing existing assets.
+
+What started as an attempt to make RimWorld playable on an aging laptop has become an opportunity to revisit an old project, improve my skills, and see how far I can take the original idea.
