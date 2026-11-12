@@ -23,7 +23,7 @@ namespace EightBitMode
             }
         }
 
-        public static Texture2D Process(Texture2D src, string name, Preset preset, bool destroyOriginal = true)
+        public static Texture2D Process(Texture2D src, string name, Preset preset)
         {
             PresetInfo p = Get(preset);
             int w = src.width, h = src.height;
@@ -49,7 +49,6 @@ namespace EightBitMode
             if (nw == w && nh == h && !quantize) return src;
 
             RenderTexture prev = RenderTexture.active;
-            FilterMode oldFilter = src.filterMode;
             src.filterMode = FilterMode.Bilinear;
 
             // Halve repeatedly with bilinear sampling (a clean 2x2 average each step)
@@ -97,7 +96,6 @@ namespace EightBitMode
             result.anisoLevel = 0;
             result.Apply(false, true);              // no mipmaps, drop CPU copy to save RAM
 
-            if (destroyOriginal) Object.Destroy(src); else src.filterMode = oldFilter;                    // free the full-size original
             return result;
         }
 
